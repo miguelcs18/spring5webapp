@@ -4,6 +4,8 @@ import java.util.Objects;
 
 public class Book {
 
+    //this is a book model
+
     private Long id;
 
     @Override

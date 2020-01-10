@@ -1,6 +1,7 @@
 package guru.springframework.spring5webapp.Model;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.util.Objects;
 @Entity
 public class Book {
@@ -9,6 +10,7 @@ public class Book {
 
     //This is a second comment
 
+    @Id
     private Long id;
 
     @Override

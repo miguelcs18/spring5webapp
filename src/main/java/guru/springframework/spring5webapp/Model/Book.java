@@ -1,7 +1,8 @@
 package guru.springframework.spring5webapp.Model;
 
+import javax.persistence.Entity;
 import java.util.Objects;
-
+@Entity
 public class Book {
 
     //this is a book model
